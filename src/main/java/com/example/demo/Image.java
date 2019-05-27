@@ -12,9 +12,9 @@ public class Image {
 
     private String name;
 
-    private Image() {}
+    public Image() {}
 
-    private Image(String name) {
+    public Image(String name) {
         this.name = name;
     }
 
